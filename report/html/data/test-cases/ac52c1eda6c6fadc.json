@@ -1,0 +1,112 @@
+{
+  "uid" : "ac52c1eda6c6fadc",
+  "name" : "test_login",
+  "fullName" : "scripts.test_login.test_login",
+  "historyId" : "16a0bcb8c873049d6f622cf4ae699d50",
+  "time" : {
+    "start" : 1548314946597,
+    "stop" : 1548314946863,
+    "duration" : 266
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "@allure.step(title=\"测试登陆的流程\")\n    def test_login():\n        allure.attach(\"登录\",\"输入用户名\")\n        print(\"bbbb\")\n    \n        allure.attach('登录',\"输入密码\")\n        print('cccc')\n    \n        allure.attach('登录',\"点击登录\")\n>       assert 0\nE       assert 0\n\nscripts\\test_login.py:17: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "@allure.step(title=\"测试登陆的流程\")\n    def test_login():\n        allure.attach(\"登录\",\"输入用户名\")\n        print(\"bbbb\")\n    \n        allure.attach('登录',\"输入密码\")\n        print('cccc')\n    \n        allure.attach('登录',\"点击登录\")\n>       assert 0\nE       assert 0\n\nscripts\\test_login.py:17: AssertionError",
+    "steps" : [ {
+      "name" : "测试登陆的流程",
+      "time" : {
+        "start" : 1548314946613,
+        "stop" : 1548314946644,
+        "duration" : 31
+      },
+      "status" : "failed",
+      "statusMessage" : "@allure.step(title=\"测试登陆的流程\")\n    def test_login():\n        allure.attach(\"登录\",\"输入用户名\")\n        print(\"bbbb\")\n    \n        allure.attach('登录',\"输入密码\")\n        print('cccc')\n    \n        allure.attach('登录',\"点击登录\")\n>       assert 0\nE       assert 0\n\nscripts\\test_login.py:17: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2946ae5fa9d1e37a",
+        "name" : "登录",
+        "source" : "2946ae5fa9d1e37a.txt",
+        "type" : "text/plain",
+        "size" : 15
+      }, {
+        "uid" : "6b9b614d5d439d5f",
+        "name" : "登录",
+        "source" : "6b9b614d5d439d5f.txt",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "7bca98221e3a5c4c",
+        "name" : "登录",
+        "source" : "7bca98221e3a5c4c.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7536-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts.test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts.test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ac52c1eda6c6fadc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Lenovo-PC",
+    "children" : [ {
+      "name" : "7536-MainThread",
+      "children" : [ {
+        "name" : "test_a",
+        "uid" : "1165971d77f0d3f8",
+        "parentUid" : "dab15412e3f1ed128396b55c5e56b0d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1548314946597,
+          "stop" : 1548314946597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "ac52c1eda6c6fadc",
+        "parentUid" : "dab15412e3f1ed128396b55c5e56b0d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1548314946597,
+          "stop" : 1548314946863,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dab15412e3f1ed128396b55c5e56b0d2"
+    } ],
+    "uid" : "b80906d1c61227521e131dc1a4acad7f"
+  } ]
+}
